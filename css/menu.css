@@ -1,0 +1,205 @@
+#texte-lien-menu-semaine{
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-top: 5px;
+}
+.contenu-menu-semaine{
+	position:relative;
+	display:table;
+	width: 100%;
+	background-color:#A3123F;
+	background-image: url(../images/ble-menu.png);
+	background-position: bottom center;
+	background-repeat:no-repeat;
+	border-top: 4px solid #fff;
+	padding-bottom: 60px;
+}
+.menu-jour{
+	display:block;
+	color:#F6E8EC;
+	text-shadow: 0px 1px 1px black;
+	padding:0 10px 10px 10px;
+}
+.menu-jour h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 25px 0 12px;
+}
+.menu-jour h3 img{
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: -4px;
+}
+#zone-menu-semaine .current{
+	color:#fff;
+}
+#zone-menu-semaine .ferme{
+	color:#FF4C7F;
+}
+#zone-menu-semaine .ferme img{
+	display:none !important;
+}
+.ferme-p{
+	text-transform:uppercase;
+}
+#colonne-menu-ville{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	float: left;
+	padding-left: 20%;
+	padding-right: 10%;
+}
+#colonne-menu-gare{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	float: left;
+	padding-right: 20%;
+	padding-left: 10%;
+}
+.menu-align-center{
+	display:inline-block;
+	max-width: 400px;
+}
+.titre-menu{
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	background: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 30px 10px 10px 10px;
+	text-shadow: 0px 1px 1px black;
+}
+.titre-menu .bordure-home {
+	display: block;
+	display: inline-block;
+	width: 200px;
+	height: 16px;
+	background-image: url(../images/bordure001.png);
+	background-position: center;
+}
+.titre-menu h2{
+	font-size: 18px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+.menu-jour p{
+	font-size: 16px;
+	line-height: 17px;
+	padding: 5px;
+	margin: 0;
+}
+.points-separation{
+	padding-bottom:15px;
+}
+#menumail {
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 55px;
+	background: url(../images/bordure006.png) no-repeat center #B7A2A4;
+	padding: 0;
+	margin: 0;
+	border-top: 4px solid #fff;
+	text-align: center;
+}
+#formulaire-menu-semaine {
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 55px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background:#B7A2A4;
+}
+
+
+
+
+
+
+.sml_subscribe{
+	padding-top:8px;
+}
+.sml_email{
+	position:relative;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.sml_submit{
+	position:relative;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.sml_email label{
+	display:none !important;
+}
+.sml_email input{
+	width: 320px;
+	margin:0;
+	padding: 2px 11px;
+	font-size: 18px;
+	border: none;
+	display: block;
+	color:#B7A3A5;
+	height: 30px !important;
+	float: left;
+}
+.sml_submit input[type=submit]{
+	margin:0 !important;
+	padding: 2px 11px !important;
+	font-size: 18px !important;
+	border: none !important;
+	display: block !important;
+	color:#fff !important;
+	background: #A3123F !important;
+	width: auto !important;
+	height: 30px !important;
+	cursor:pointer !important;
+	float: left;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+#colonne-menu-ville {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#colonne-menu-gare {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 550px) {
+#menumail {
+	background:#B7A2A4;
+}
+#menumail #telechargement-bord-droit{
+	display:none !important;
+}
+#menumail #telechargement-bord-gauche{
+	display:none !important;
+}
+}
